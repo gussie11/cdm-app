@@ -1,0 +1,37 @@
+# Local environment
+.env
+
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+
+# Build artifacts
+dist/
+build/
+.next/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data/Cache
+cache/
+*.db
+*.sqlite3
+
+# System logs
+overview.json
+key_events.json
+street_view*.json
